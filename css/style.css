@@ -1,0 +1,121 @@
+@media (min-width:1000px){
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsl(0, 0%, 81%);
+        display: flex;
+        gap: 30px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        padding: 50px;
+    }
+    h3{
+        font-size: 17px;
+        font-weight: 500px;
+    }
+    p{
+        padding-top: 0px;
+        font-weight: 600px;
+    }
+    .h3{
+        margin-top: 20px;
+    }
+    .p{
+        padding-top: 20px;
+        opacity: 70%;
+    }
+    .head{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .head-item{
+        margin: 70px 0px 40px 40px;
+        border-radius: 15px;
+        padding: 30px;
+    }
+    .test-1{
+        background-color: hsl(263, 55%, 52%);
+        color: white;
+    }
+    .test-1 div img{
+        border-radius: 50%;
+    }
+    .test-2{
+        background-color: hsl(217, 19%, 35%);
+        color: white;
+        margin-left: 15px;
+        width: 300px;
+    }
+    .test-2 div img{
+        border-radius: 50%;
+    }
+    .test-2 div div h3{
+        font-size: 19px;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .foot-item{
+        margin: -20px 0px 40px 40px;
+        border-radius: 15px;
+        padding: 30px;
+    }
+    .test-3{
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(219, 29%, 14%);
+        width: 300px;
+    }
+    .test-3 h3{
+        font-size: 20px;
+    }
+    .aside-text h3{
+        font-size: 20px;
+    }
+    .aside-text p{
+        font-size: 15px;
+        opacity: 50%;
+    }
+    .test-3 div img{
+        border-radius: 50%;
+    }
+    .test-4{
+        background-color: hsl(219, 29%, 14%);
+        color: white;
+        margin-left: 15px;
+    }
+    .test-4 div img{
+        border-radius: 50%;
+    }
+    .section-5{
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 70px;
+        margin-right: 20px;
+        height: 687px;
+        width: 1300px;
+        border-radius: 15px;
+        padding: 20px 30px;
+        box-shadow: 0px 0px 100px -50px;
+    }
+    .name{
+        display: flex;
+        gap: 20px;
+    }
+    .aside-text{
+        display: block;
+        margin-top: 7.5px;
+    }
+    .section-5 h3{
+        font-size: 20px;
+    }
+    .section-5 p{
+        margin-top: 5px;
+        font-size: 16.6px;
+    }
+    .section-5 div img{
+        border-radius: 50%;
+    }
+}
